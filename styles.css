@@ -1,0 +1,46 @@
+body {
+  background-color: azure;
+  padding: 12px
+}
+.description {
+  height: 25px;
+  overflow: hidden;
+  transition: height .3s ease-in .3s;
+}
+.description:hover {
+  height: 80px;
+}
+.header,.alert {
+  z-index: 100;
+}
+.carrito {
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100vw;
+}
+.table-productos {
+  display: flex;
+}
+.table-productos > img {
+  width: 8rem;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.table-cantidad > input {
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.table-total {
+  font-size: 18px;
+  font-weight: 700;
+}
+.hidden , .remove {
+  display: none;
+}
